@@ -19,6 +19,9 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+section{
+  margin:5%;
+}
 header {
     position: fixed;
     top:0;
@@ -157,10 +160,9 @@ header .logo {
   font-size: 2rem;
   text-align: justify;
   margin:2rem;
+  width: 100%;
 }
-.services {
-  padding: 2rem 9%;
-}
+
 .services h1 {
   font-size: 4rem;
   text-align: center;
@@ -321,7 +323,7 @@ position: relative;
   line-height: 4.5rem;
   border-radius: 50%;
   font-size: 2rem;
-  margin: 3rem;
+  margin: 1rem;
 }
 .footer .share a:hover{
   color:#fff;
